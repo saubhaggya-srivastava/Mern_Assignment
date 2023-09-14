@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using css</title>
+</head>
+<style>
+    .form{
+        margin: auto;
+        width: 25%;
+            padding: 10px;
+    }
+    .container{
+        margin: auto;
+        width: 25%;
+        padding: 10px;
+    }
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .image{
+        width: 400px;
+        height: 300px;
+        margin-left: 38%;
+        
+    }
+    #username{
+        width: 75%;
+        height: 25px;
+    }
+    #password{
+        width: 75%;
+        height: 25px;
+    }
+    #login{
+        background-color: rgb(83, 213, 83);
+        color: white;
+        width: 75%;
+        border: 0px;
+        height: 30px;
+    }
+    #cancel{
+        background-color: red;
+        color: white;
+        border: 0px;
+        border-radius: 5px;
+        height: 25px;
+    }
+    a{
+        margin: 15%;
+    }
+</style>
+<body>
+    <div class="image">
+        <img src="icon.webp" alt="img">
+    </div>
+    <div class="form">
+        <form>
+            <label for="username"><b>Username</b></label><br>
+            <input type="text" id="username" name="usernmae" placeholder="Enter Username"><br>
+            <br>
+            <label for="password"><b>Password</b></label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+            <br>
+            <button type="button" id="login">Login</button><br>
+            <br>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember me</label>
+        </form>
+    </div>
+    <div class="container">
+        <button type="button" id="cancel">Cancel</button>
+        <a href="">Forgot Password?</a>
+    </div>
+</body>
+</html>

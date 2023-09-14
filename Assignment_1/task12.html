@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TASK7</title>
+    <style>
+        form{
+            background-color: rgb(103, 25, 59);
+            height: 400px;
+            
+        }
+        .Form{
+           width: 40%;
+           height: 400px;
+           margin-left: 560px;
+           margin-top: 200px;
+        }
+        input{
+            float: right;
+            cursor: pointer;
+            margin-right: 50px;
+            width: 50%;  
+            height: 20px; 
+        }
+        label{
+            color:white;
+            width: 50%; 
+            margin-left: 50px;
+        }
+        button{
+            background-color: white;
+            color: black;
+            width: 70%;
+            height: 30px;
+            border: 0px;
+            border-radius: 7px;
+            margin-left: 80px;
+            font-size: 22px;
+        }
+        select{
+          width: 150px;
+          margin-left: 160px;
+        }
+    </style>
+</head>
+<body style="background-color:rgb(129, 21, 64);">
+    <div class="Form">
+        <form><br>
+            <br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="your name"><br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your email"><br>
+            <br>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass"><br>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone"><br>
+            <br>
+            <label for="gender">Gender:</label>
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="male" value="male" style="float: none;width:4%;margin-right:2px ;margin-top:5px ">
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="female" value="female" style="float: none; width:4%;margin-right:2px ">
+            <label for="other">Other:</label>
+            <input type="radio" id="other" name="other" value="other" style="float: none; width:4%;margin-right:2px "><br>
+            <br>
+            <label for="language">Language:</label>
+            <select name="language" id="language" >
+                <option value="" disabled selected hidden>Select Language</option>
+                <option value="English">English</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Other">Other</option>
+            </select><br>
+            <br>
+            <label for="zipcode">Zip Code:</label>
+            <input type="number" id="zipcode" name="zipcode"><br>
+            <br>
+            <label for="about">About:</label>
+            <input type="text" id="about" name="about" placeholder="Write about yourself....."><br>
+            <br>
+            <button type="button"><b>Register</b></button>
+        </form>
+    </div>
+</body>
+</html>
